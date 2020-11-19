@@ -34,16 +34,16 @@ div {
 </style>
 <body>
 
-<h3>Dimenção do array</h3><form action="/action_page.php">
-       <label for="fname">Insira a dimenção do Array </label>
+<h3>Dimencao do array</h3><form action="contas.php" method="POST">
+       <label for="fname">Insira a dimencao do Array </label>
        <input type="text" id="fname" name="dimensao">
 <br>
 
 <h3>Introduza o intervalo de valores</h3>
   <br>
 
-  <form action="/action_page.php">
-      <h3>Início</h3><input type="text" id="fname" name="inicio" placeholder="Insira o valor..">
+
+      <h3>Inicio</h3><input type="text" id="fname" name="inicio" placeholder="Insira o valor..">
 
       <h3>Fim</h3><input type="text" id="fname" name="fim" placeholder="Insira o valor..">
 
@@ -51,14 +51,14 @@ div {
 
 
    
-  </form>
-  <h3>Ordenação dos valores por ordem </h3>
-<input type="radio" name="rbt_valor" value="1" > Crescente
-<input type="radio" name="rbt_valor" value="2" > Decrescente
+
+  <h3>Ordenacao dos valores por ordem </h3>
+<input type="radio" name="ordenacao" value="1" > Crescente
+<input type="radio" name="ordenacao" value="2" > Decrescente
 <br>
 
  
- <input type="submit" value="Submit">
-
+ <input type="submit" value="submit">
+  </form>
 </body>
 </html>
